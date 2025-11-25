@@ -24,6 +24,7 @@ import EventHubProject from "../assets/img/projects/eventhubProject.png";
 import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 import PushNotificationProject from "../assets/img/projects/pushnotification.png";
+import AppleHealthExpoProject from "../assets/img/projects/apple-health-expo.png";
 
 import web1 from "../assets/img/sliderwebp/web1.webp";
 import web2 from "../assets/img/sliderwebp/web2.webp";
@@ -267,6 +268,25 @@ export const ProjectCardsData = [
     githubUrl:
       "https://github.com/Haider-Mukhtar/ReactNative-Push-Notification",
   },
+  {
+    id: 5,
+    title: "Apple Health with Expo",
+    description: "Seamless Integration of Apple Health into Your React Native Expo App ",
+    image: AppleHealthExpoProject,
+    type: "Personal",
+    year: "2025",
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "React Native Health",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://medium.com/javascript-in-plain-english/seamless-integration-of-apple-health-into-your-react-native-expo-app-7e9ecade0ae8",
+    githubUrl:
+      "https://github.com/Haider-Mukhtar/ReactNative-Apple-Health-IOS",
+  },
 ];
 
 // Testimonials Section
@@ -349,6 +369,7 @@ export const ExperienceData = [
       "TypeScript",
       "React Native",
       "Expo",
+      "Redux Toolkit",
       "GitHub",
     ],
     type: "current",

@@ -17,7 +17,7 @@ import { cn } from "@/lib/utils";
 
 interface StackingCardsProps
   extends PropsWithChildren,
-    HTMLAttributes<HTMLDivElement> {
+  HTMLAttributes<HTMLDivElement> {
   scrollOptons?: UseScrollOptions;
   scaleMultiplier?: number;
   totalCards: number;
@@ -25,7 +25,7 @@ interface StackingCardsProps
 
 interface StackingCardItemProps
   extends HTMLAttributes<HTMLDivElement>,
-    PropsWithChildren {
+  PropsWithChildren {
   index: number;
   topPosition?: string;
 }
@@ -74,9 +74,9 @@ const StackingCardItem = ({
   const top = topPosition ?? `${25 + index * 3}%`;
 
   return (
-    <div className={cn("h-full sticky top-0", className)} {...props}>
+    <div className={cn("h-full sticky top-0 pointer-events-none", className)} {...props}>
       <motion.div
-        className={"origin-top relative h-full"}
+        className={"origin-top relative h-full pointer-events-none"}
         style={{ top, scale }}
       >
         {children}

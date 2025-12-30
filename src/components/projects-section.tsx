@@ -56,7 +56,7 @@ const ProjectsSection = () => {
                 >
                   <div
                     className={cn(
-                      "h-[80%] sm:h-[70%] bg-white flex-col lg:flex-row gap-6 lg:gap-8 aspect-video p-6 md:p-8 flex w-11/12 rounded-3xl mx-auto relative border border-myPalette2 backdrop-blur-sm shadow-lg"
+                      "h-[80%] sm:h-[70%] bg-white flex-col lg:flex-row gap-6 lg:gap-8 aspect-video p-6 md:p-8 flex w-11/12 rounded-3xl mx-auto relative border border-myPalette2 backdrop-blur-sm shadow-lg pointer-events-auto"
                     )}
                   >
                     <div className="flex-1 flex flex-col justify-between font-myMainFont">
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
                                 style={{
                                   backgroundColor:
                                     project.techColors[
-                                      techIndex % project.techColors.length
+                                    techIndex % project.techColors.length
                                     ],
                                 }}
                               ></div>

@@ -1,7 +1,7 @@
 import GitHubCalendar from 'react-github-calendar';
 import MaxWidthWrapper from './max-width-wrapper';
 import { motion } from "motion/react";
-import { AboutSectionHeading, AboutSectionSkillsHeading, AboutSectionSubHeading, GithubIcon, GitHubProfile, InstagramIcon, InstagramProfile, LinkedInIcon, LinkedInProfile, MediumIcon, MediumProfile, SkillsData } from '@/lib/constants';
+import { AboutSectionHeading, AboutSectionSkillsHeading, AboutSectionSubHeading, GithubIcon, GitHubProfile, InstagramIcon, InstagramProfile, LinkedInIcon, LinkedInProfile, MediumIcon, MediumProfile, SkillsData1, SkillsData2 } from '@/lib/constants';
 import Marquee from "react-fast-marquee";
 import {
   MouseTrackerProvider as CursorProvider,
@@ -30,7 +30,7 @@ const AboutSection = () => {
           </motion.div>
           <div className='mt-10 flex flex-col md:flex-row gap-6'>
             <div className='md:w-[40%] bg-white border border-myPalette2 shadow-lg rounded-3xl px-6 pt-6 pb-6 grid grid-cols-2 gap-4'>
-              <a href={LinkedInProfile} target='_blank' className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex cursor-none'>   
+              <a href={LinkedInProfile} target='_blank' className='bg-white border border-myPalette2 shadow-md rounded-xl p-2 justify-center items-center flex cursor-none'>
                 <img
                   className="h-14 aspect-square"
                   src={LinkedInIcon}
@@ -105,7 +105,7 @@ const AboutSection = () => {
               </h3>
               <div className='mt-6'>
                 <Marquee autoFill gradient gradientWidth={40}>
-                  {SkillsData.map((item) => (
+                  {SkillsData1.map((item) => (
                     <div className='bg-white border border-myPalette2 shadow-lg rounded-xl mr-2 mb-4 p-2 flex flex-row items-center gap-2'>
                       <img
                         className="h-10 aspect-square"
@@ -117,7 +117,7 @@ const AboutSection = () => {
                   ))}
                 </Marquee>
                 <Marquee autoFill direction="right" gradient gradientWidth={40}>
-                  {SkillsData.map((item) => (
+                  {SkillsData2.map((item) => (
                     <div className='bg-white border border-myPalette2 shadow-lg rounded-xl mr-2 mb-6 p-2 flex flex-row items-center gap-2'>
                       <img
                         className="h-10 aspect-square"

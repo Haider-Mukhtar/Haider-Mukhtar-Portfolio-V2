@@ -7,7 +7,7 @@ import { GithubIconBtn1 } from "./ui/github-icon-btn1";
 const ImagesSliderSection = () => {
   return (
     <>
-      <Marquee pauseOnHover autoFill>
+      <Marquee pauseOnHover autoFill className="py-4">
         {SliderImagesData.map((item) => (
           <div className="hover:scale-105 transition-transform duration-500 py-4 relative group"> 
             <img

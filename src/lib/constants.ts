@@ -11,6 +11,7 @@ import ExpoIcon from "../assets/img/icons/skills-tools/expo.png";
 import FirebaseIcon from "../assets/img/icons/skills-tools/firebase.png";
 import GithubIcon from "../assets/img/icons/skills-tools/github.png";
 import HTMLIcon from "../assets/img/icons/skills-tools/html.png";
+import ReduxIcon from "../assets/img/icons/skills-tools/redux.png";
 import JavaScriptIcon from "../assets/img/icons/skills-tools/javascript.png";
 import TailwindCSSIcon from "../assets/img/icons/skills-tools/tailwindcss.png";
 import TypeScriptIcon from "../assets/img/icons/skills-tools/typescript.png";
@@ -414,7 +415,7 @@ export const AboutSectionHeading = "A Glimpse into My World";
 export const AboutSectionSubHeading =
   "Here, you'll find a snapshot of my coding activity, the tools I master, my key skills, and ways to connect with me.";
 export const AboutSectionSkillsHeading = "My Skills & Tools";
-export const SkillsData = [
+export const SkillsData1 = [
   {
     id: 1,
     name: "Android Studio",
@@ -472,18 +473,100 @@ export const SkillsData = [
   },
   {
     id: 12,
+    name: "Redux Toolkit",
+    icon: ReduxIcon,
+  },
+  {
+    id: 13,
     name: "Tailwind CSS",
     icon: TailwindCSSIcon,
   },
   {
-    id: 13,
+    id: 14,
     name: "TypeScript",
     icon: TypeScriptIcon,
   },
   {
-    id: 14,
+    id: 15,
     name: "VS Code",
     icon: VSCodeIcon,
+  },
+];
+export const SkillsData2 = [
+  {
+    id: 1,
+    name: "VS Code",
+    icon: VSCodeIcon,
+  },
+  {
+    id: 2,
+    name: "TypeScript",
+    icon: TypeScriptIcon,
+  },
+  {
+    id: 3,
+    name: "Tailwind CSS",
+    icon: TailwindCSSIcon,
+  },
+  {
+    id: 4,
+    name: "Redux Toolkit",
+    icon: ReduxIcon,
+  },
+  {
+    id: 5,
+    name: "React Native",
+    icon: ReactIcon,
+  },
+  {
+    id: 6,
+    name: "React",
+    icon: ReactIcon,
+  },
+  {
+    id: 7,
+    name: "JavaScript",
+    icon: JavaScriptIcon,
+  },
+  {
+    id: 8,
+    name: "HTML",
+    icon: HTMLIcon,
+  },
+  {
+    id: 9,
+    name: "Github",
+    icon: GithubIcon,
+  },
+  {
+    id: 10,
+    name: "Firebase",
+    icon: FirebaseIcon,
+  },
+  {
+    id: 11,
+    name: "Expo",
+    icon: ExpoIcon,
+  },
+  {
+    id: 12,
+    name: "CSS",
+    icon: CSSIcon,
+  },
+  {
+    id: 13,
+    name: "BootStrap",
+    icon: BootstrapIcon,
+  },
+  {
+    id: 14,
+    name: "Chrome",
+    icon: ChromeIcon,
+  },
+  {
+    id: 15,
+    name: "Android Studio",
+    icon: AndroidStudioIcon,
   },
 ];
 export {

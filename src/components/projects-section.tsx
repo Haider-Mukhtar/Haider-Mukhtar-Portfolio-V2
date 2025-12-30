@@ -100,12 +100,16 @@ const ProjectsSection = () => {
                         >
                           <VisitLiveSiteBtn />
                         </Link>
-                        <Link
-                          target="_blank"
-                          to={project.githubUrl}
-                        >
-                          <GithubIconBtn />
-                        </Link>
+                        {
+                          project.githubUrl && (
+                            <Link
+                              target="_blank"
+                              to={project.githubUrl}
+                            >
+                              <GithubIconBtn />
+                            </Link>
+                          )
+                        }
                       </div>
                     </div>
 

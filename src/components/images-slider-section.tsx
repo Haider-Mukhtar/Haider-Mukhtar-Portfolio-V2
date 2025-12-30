@@ -9,7 +9,7 @@ const ImagesSliderSection = () => {
     <>
       <Marquee pauseOnHover autoFill className="py-4">
         {SliderImagesData.map((item) => (
-          <div className="hover:scale-105 transition-transform duration-500 py-4 relative group"> 
+          <div className="hover:scale-105 transition-transform duration-500 py-4 relative group">
             <img
               className="h-100 mx-4"
               src={item.image}
@@ -17,32 +17,36 @@ const ImagesSliderSection = () => {
             />
             {
               item.projectUrl || item.githubUrl ?
-              <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
-                {
-                  item.projectUrl ?
-                    <Link
-                      target="_blank"
-                      to={item.projectUrl}
-                    >
-                      <LinkIconBtn />
-                    </Link>
-                    : null
-                }
-                <Link
-                  target="_blank"
-                  to={item.githubUrl}
-                >
-                  <GithubIconBtn1 />
-                </Link>
-              </div>
-              : null
+                <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
+                  {
+                    item.projectUrl ?
+                      <Link
+                        target="_blank"
+                        to={item.projectUrl}
+                      >
+                        <LinkIconBtn />
+                      </Link>
+                      : null
+                  }
+                  {
+                    item.githubUrl ?
+                      <Link
+                        target="_blank"
+                        to={item.githubUrl}
+                      >
+                        <GithubIconBtn1 />
+                      </Link>
+                      : null
+                  }
+                </div>
+                : null
             }
           </div>
         ))}
       </Marquee>
       <Marquee pauseOnHover autoFill direction="right" className="lg:py-4 hidden lg:block">
         {SliderImagesData.map((item) => (
-          <div className="hover:scale-105 transition-transform duration-500 py-4 relative group"> 
+          <div className="hover:scale-105 transition-transform duration-500 py-4 relative group">
             <img
               className="h-100 mx-4 hidden lg:block"
               src={item.image}
@@ -50,25 +54,29 @@ const ImagesSliderSection = () => {
             />
             {
               item.projectUrl || item.githubUrl ?
-              <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
-                {
-                  item.projectUrl ?
-                  <Link
-                    target="_blank"
-                    to={item.projectUrl}
-                  >
-                    <LinkIconBtn />
-                  </Link>
-                    : null
-                }
-                <Link
-                  target="_blank"
-                  to={item.githubUrl}
-                >
-                  <GithubIconBtn1 />
-                </Link>
-              </div>
-              : null
+                <div className="bg-black/50 m-4 rounded-3xl absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-row gap-1 justify-center items-center">
+                  {
+                    item.projectUrl ?
+                      <Link
+                        target="_blank"
+                        to={item.projectUrl}
+                      >
+                        <LinkIconBtn />
+                      </Link>
+                      : null
+                  }
+                  {
+                    item.githubUrl ?
+                      <Link
+                        target="_blank"
+                        to={item.githubUrl}
+                      >
+                        <GithubIconBtn1 />
+                      </Link>
+                      : null
+                  }
+                </div>
+                : null
             }
           </div>
         ))}

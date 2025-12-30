@@ -25,6 +25,7 @@ import EventHubProject from "../assets/img/projects/eventhubProject.png";
 import MaxFitProject from "../assets/img/projects/maxfitProject.png";
 import TagExtractorProject from "../assets/img/projects/tagextractor.png";
 import PushNotificationProject from "../assets/img/projects/pushnotification.png";
+import LailaAppProject from "../assets/img/projects/lailaapp.png";
 import AppleHealthExpoProject from "../assets/img/projects/apple-health-expo.png";
 
 import web1 from "../assets/img/sliderwebp/web1.webp";
@@ -80,7 +81,7 @@ export const SliderImagesData = [
     id: 1,
     type: "phone",
     image: mobile1,
-    projectUrl: "",
+    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
     githubUrl: "",
   },
   {
@@ -94,7 +95,7 @@ export const SliderImagesData = [
     id: 3,
     type: "phone",
     image: mobile2,
-    projectUrl: "",
+    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
     githubUrl: "",
   },
   {
@@ -108,7 +109,7 @@ export const SliderImagesData = [
     id: 5,
     type: "phone",
     image: mobile3,
-    projectUrl: "",
+    projectUrl: "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
     githubUrl: "",
   },
   {
@@ -271,6 +272,24 @@ export const ProjectCardsData = [
   },
   {
     id: 5,
+    title: "Laila App",
+    description: "An innovative app enhancing spiritual experiences through real-time transcriptions of live Khutbahs and verse-by-verse Quran translations in multiple languages.",
+    image: LailaAppProject,
+    type: "Professional",
+    year: "2025",
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+    ],
+    techColors: ["#818CF8", "#38B2AC", "#3178C6"],
+    projectUrl:
+      "https://play.google.com/store/apps/details?id=com.digimark.Laila&pcampaignid=web_share",
+    githubUrl:
+      "",
+  },
+  {
+    id: 6,
     title: "Apple Health with Expo",
     description: "Seamless Integration of Apple Health into Your React Native Expo App ",
     image: AppleHealthExpoProject,

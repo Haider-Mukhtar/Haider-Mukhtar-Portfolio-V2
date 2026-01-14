@@ -1,7 +1,7 @@
 import { BriefcaseBusiness, FolderGit2, House, Star } from "lucide-react";
 import Photo from "../assets/img/myProfilePhoto.jpg";
 import MaleAvator from "../assets/img/icons/male-avatar.png";
-import FemaleAvator from "../assets/img/icons/female-avatar.png";
+// import FemaleAvator from "../assets/img/icons/female-avatar.png";
 import ReactIcon from "../assets/img/icons/skills-tools/react.png";
 import AndroidStudioIcon from "../assets/img/icons/skills-tools/androidstudio.png";
 import BootstrapIcon from "../assets/img/icons/skills-tools/bootstrap.png";
@@ -309,14 +309,14 @@ export const ProjectCardsData = [
   },
 ];
 
-// Testimonials Section
+// Testimonials Section - FemaleAvator
 export const TestimonialsSectionHeading = "What Clients Say About Me";
 export const TestimonialsSectionSubHeading =
   "Don't just take my word for it. See what my clients have to say about my work.";
 export const testimonialsData = [
   {
     text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: FemaleAvator,
+    image: MaleAvator,
     name: "Muaaz Ahmad",
     role: "Mobile App Developer",
   },
@@ -325,10 +325,16 @@ export const testimonialsData = [
     image: MaleAvator,
     name: "Muhammad Hussain",
     role: "Python Developer",
+  },
+  {
+    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    image: MaleAvator,
+    name: "Mohsin Raza",
+    role: "Senior Software Engineer",
   },
   {
     text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: FemaleAvator,
+    image: MaleAvator,
     name: "Muaaz Ahmad",
     role: "Mobile App Developer",
   },
@@ -337,10 +343,16 @@ export const testimonialsData = [
     image: MaleAvator,
     name: "Muhammad Hussain",
     role: "Python Developer",
+  },
+  {
+    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
+    image: MaleAvator,
+    name: "Mohsin Raza",
+    role: "Senior Software Engineer",
   },
   {
     text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: FemaleAvator,
+    image: MaleAvator,
     name: "Muaaz Ahmad",
     role: "Mobile App Developer",
   },
@@ -351,16 +363,10 @@ export const testimonialsData = [
     role: "Python Developer",
   },
   {
-    text: "Collaborating with Haider Mukhtar on React Native Mobile App Development brings, unparalleled expertise, efficiency and creativity to every project.",
-    image: FemaleAvator,
-    name: "Muaaz Ahmad",
-    role: "Mobile App Developer",
-  },
-  {
-    text: "Haider is a talented React Native developer with a strong grasp of building clean, user-friendly mobile applications. He is proactive, reliable, and works well within a team. His problem-solving skills and commitment to quality make him a valuable asset. I highly recommend Haider for any React Native or mobile development role.",
+    text: "Haider Mukhtar is an exceptional React Native developer I've had the opportunity to collaborate with. His expertise in JavaScript, TypeScript, Expo, and Tailwind CSS shines through in every component and feature he builds clean architecture, smooth performance, and pixel-perfect UIs are his standard. He's dependable under deadlines, great at debugging tricky issues, and always open to feedback to make the product better. Haider's technical skills combined with his strong work ethic and team spirit make him stand out. I wholeheartedly recommend Haider for any mobile/web frontend opportunity. He's the kind of engineer teams love having on board!",
     image: MaleAvator,
-    name: "Muhammad Hussain",
-    role: "Python Developer",
+    name: "Mohsin Raza",
+    role: "Senior Software Engineer",
   },
 ];
 
